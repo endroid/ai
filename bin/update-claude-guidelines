@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Update Claude's global instructions from local guidelines file
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SOURCE_FILE="$SCRIPT_DIR/../doc/GUIDELINES.md"
+TARGET_FILE="$HOME/.claude/CLAUDE.md"
+
+echo "Updating guidelines from $SOURCE_FILE..."
+
+# Check if source file exists
+if [ ! -f "$SOURCE_FILE" ]; then
+    echo "Error: Source file $SOURCE_FILE not found" >&2
+    exit 1
+fi
+
+# Copy the content
+if cp "$SOURCE_FILE" "$TARGET_FILE"; then
+    echo "Successfully updated $TARGET_FILE"
+else
+    echo "Error: Failed to copy guidelines to $TARGET_FILE" >&2
+    exit 1
+fi
