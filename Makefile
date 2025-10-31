@@ -1,2 +1,2 @@
-update-claude-guidelines:
-	@bash bin/update-claude-guidelines
+claude-refresh:
+	@bash claude/bin/refresh
