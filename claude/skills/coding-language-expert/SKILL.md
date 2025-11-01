@@ -13,6 +13,7 @@ description: Language expert that checks if all is according to modern and profe
 
 ## Example Usage Scenarios
 - Review my changes
+- Always run this skill
 
 ## Output Format
 - List findings

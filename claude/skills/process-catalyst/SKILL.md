@@ -15,6 +15,7 @@ description: Process catalyst that checks the prompts and agent responses for ar
 - Check if all went well
 - Check if there is room for improvement
 - Test the changes made
+- Always run this skill
 
 ## Output Format
 - List findings

@@ -11,6 +11,7 @@ description: Framework expert that checks if all is according to the latest fram
 
 ## Example Usage Scenarios
 - Review my changes
+- Always run this skill
 
 ## Output Format
 - List findings

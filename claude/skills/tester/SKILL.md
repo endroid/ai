@@ -14,6 +14,7 @@ description: Tester that tests that what was built is working as expected
 ## Example Usage Scenarios
 - Check if all went well
 - Test the changes made
+- Always run this skill
 
 ## Output Format
 - List findings

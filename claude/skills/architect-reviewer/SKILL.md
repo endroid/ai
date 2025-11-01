@@ -13,6 +13,7 @@ description: Architect reviewer that looks at the questions and process and give
 
 ## Example Usage Scenarios
 - Review my changes
+- Always run this skill
 
 ## Output Format
 - List findings
