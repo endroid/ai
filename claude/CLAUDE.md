@@ -6,3 +6,4 @@
 * Avoid working with mixed arrays or JSON structs: denormalize to strict models early
 * Do not use the assert method to check for errors, use strictness instead
 * Execute commands with a quiet flag to save tokens, unless they fail
+* Do not ignore phpstan or linting errors
